@@ -147,3 +147,12 @@
 2026-08-06 14:13:48 [120] creating release vol-120
 2026-08-06 14:14:00 [120] uploaded; cleaning local
 2026-08-06 14:14:00 [120] DONE
+2026-08-06 14:14:07 [122] downloading Vol 122.zip (50.2 MB)
+2026-08-06 14:14:26 [122] SHA-1 verified
+2026-08-06 14:14:26 [122] extracting
+2026-08-06 14:14:27 [122] compressing per-game 7z
+2026-08-06 14:14:37 [122] compressing solid iso 7z
+2026-08-06 14:14:47 [122] catalog entry written (170 files)
+2026-08-06 14:14:48 [122] creating release vol-122
+2026-08-06 14:15:03 [122] uploaded; cleaning local
+2026-08-06 14:15:04 [122] DONE
