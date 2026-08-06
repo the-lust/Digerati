@@ -318,3 +318,12 @@
 2026-08-06 14:39:10 [144] creating release vol-144
 2026-08-06 14:39:36 [144] uploaded; cleaning local
 2026-08-06 14:39:37 [144] DONE
+2026-08-06 14:39:45 [145] downloading Vol 145.zip (60.4 MB)
+2026-08-06 14:40:24 [145] SHA-1 verified
+2026-08-06 14:40:24 [145] extracting
+2026-08-06 14:40:25 [145] compressing per-game 7z
+2026-08-06 14:40:36 [145] compressing solid iso 7z
+2026-08-06 14:40:52 [145] catalog entry written (184 files)
+2026-08-06 14:40:52 [145] creating release vol-145
+2026-08-06 14:41:18 [145] uploaded; cleaning local
+2026-08-06 14:41:19 [145] DONE
