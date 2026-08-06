@@ -22,3 +22,12 @@
 2026-08-06 13:54:10 [100 (Damaged)] creating release vol-100_Damaged
 2026-08-06 13:54:31 [100 (Damaged)] uploaded; cleaning local
 2026-08-06 13:54:32 [100 (Damaged)] DONE
+2026-08-06 13:54:39 [103] downloading Vol 103.zip (21.9 MB)
+2026-08-06 13:54:56 [103] SHA-1 verified
+2026-08-06 13:54:56 [103] extracting
+2026-08-06 13:54:59 [103] compressing per-game 7z
+2026-08-06 13:55:06 [103] compressing solid iso 7z
+2026-08-06 13:55:19 [103] catalog entry written (166 files)
+2026-08-06 13:55:21 [103] creating release vol-103
+2026-08-06 13:55:31 [103] uploaded; cleaning local
+2026-08-06 13:55:32 [103] DONE
