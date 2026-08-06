@@ -536,3 +536,12 @@
 2026-08-06 16:27:34 [48] creating release vol-48
 2026-08-06 16:27:43 [48] uploaded; cleaning local
 2026-08-06 16:27:44 [48] DONE
+2026-08-06 16:27:50 [49] downloading Vol 49.zip (112 MB)
+2026-08-06 16:28:37 [49] SHA-1 verified
+2026-08-06 16:28:37 [49] extracting
+2026-08-06 16:28:39 [49] compressing per-game 7z
+2026-08-06 16:28:56 [49] compressing solid iso 7z
+2026-08-06 16:29:14 [49] catalog entry written (686 files)
+2026-08-06 16:29:14 [49] creating release vol-49
+2026-08-06 16:29:44 [49] uploaded; cleaning local
+2026-08-06 16:29:45 [49] DONE
