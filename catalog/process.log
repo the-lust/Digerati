@@ -228,3 +228,12 @@
 2026-08-06 14:22:43 [132] creating release vol-132
 2026-08-06 14:23:03 [132] uploaded; cleaning local
 2026-08-06 14:23:03 [132] DONE
+2026-08-06 14:23:10 [134] downloading Vol 134.zip (61.6 MB)
+2026-08-06 14:25:02 [134] SHA-1 verified
+2026-08-06 14:25:02 [134] extracting
+2026-08-06 14:25:03 [134] compressing per-game 7z
+2026-08-06 14:25:16 [134] compressing solid iso 7z
+2026-08-06 14:25:32 [134] catalog entry written (182 files)
+2026-08-06 14:25:33 [134] creating release vol-134
+2026-08-06 14:25:51 [134] uploaded; cleaning local
+2026-08-06 14:25:52 [134] DONE
