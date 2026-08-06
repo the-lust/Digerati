@@ -6,5 +6,7 @@
     "fileCount":  182,
     "rawBytes":  93674590,
     "games7z":  88207896,
-    "iso7z":  86872987
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20141%20Oct%2017%202011.iso",
+    "isoSha1":  "4044ef5c5c9e387fe14a25a97c71c299afde72e1",
+    "iso7z":  114843051
 }

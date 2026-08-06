@@ -6,5 +6,7 @@
     "fileCount":  427,
     "rawBytes":  62366551,
     "games7z":  54408221,
-    "iso7z":  52959324
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2078%20My%20Disc.iso",
+    "isoSha1":  "1fcea133e77267a564c8e69e35d8f90b88caf96c",
+    "iso7z":  81327987
 }

@@ -6,5 +6,7 @@
     "fileCount":  321,
     "rawBytes":  78236528,
     "games7z":  68473041,
-    "iso7z":  66652794
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20M-12.iso",
+    "isoSha1":  "9c7535eca71057c6727243acdc20f2a5b09eb06f",
+    "iso7z":  104146577
 }

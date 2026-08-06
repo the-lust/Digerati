@@ -6,5 +6,7 @@
     "fileCount":  721,
     "rawBytes":  287171236,
     "games7z":  173859916,
-    "iso7z":  150352432
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20F-12%20Jun%2002%202012.iso",
+    "isoSha1":  "df3ff35163978f3b66cdea4afae01b4292727d51",
+    "iso7z":  188809502
 }

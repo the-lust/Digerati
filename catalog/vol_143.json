@@ -6,5 +6,7 @@
     "fileCount":  185,
     "rawBytes":  54096588,
     "games7z":  48140306,
-    "iso7z":  46774458
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20143%20Nov%2015%202011.iso",
+    "isoSha1":  "fa527bd46f5f43b4e47c6ce3b8efeb5c858a0883",
+    "iso7z":  74736326
 }

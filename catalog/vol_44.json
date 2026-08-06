@@ -6,5 +6,7 @@
     "fileCount":  321,
     "rawBytes":  104676238,
     "games7z":  86863498,
-    "iso7z":  82747909
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2044%20-%20JOGO%20DISK%20.iso",
+    "isoSha1":  "882cd6e914f329ded09a0d1e4278790bab5aa342",
+    "iso7z":  104602431
 }

@@ -6,5 +6,7 @@
     "fileCount":  425,
     "rawBytes":  88178093,
     "games7z":  71250035,
-    "iso7z":  69366544
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2076%20My%20Disc.iso",
+    "isoSha1":  "4add69f4eebb23cea035240eaf98b5dc8f5c867f",
+    "iso7z":  97737545
 }

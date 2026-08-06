@@ -6,5 +6,7 @@
     "fileCount":  422,
     "rawBytes":  98510124,
     "games7z":  86990352,
-    "iso7z":  83977686
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2060.iso",
+    "isoSha1":  "cf80f72e7950a521d42d4468e6f116f5246d7d03",
+    "iso7z":  105868625
 }

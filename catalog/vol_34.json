@@ -6,5 +6,7 @@
     "fileCount":  394,
     "rawBytes":  82259556,
     "games7z":  68700097,
-    "iso7z":  64161916
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2034%20My%20Disc.iso",
+    "isoSha1":  "6aaf544f5f5462cb5426485a3175cbf9b34b2311",
+    "iso7z":  85909793
 }

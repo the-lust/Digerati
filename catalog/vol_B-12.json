@@ -6,5 +6,7 @@
     "fileCount":  334,
     "rawBytes":  245167391,
     "games7z":  219423336,
-    "iso7z":  218722557
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20B-12%20Apr%2013%202012.iso",
+    "isoSha1":  "9e622c33f8230a666a8160c8053f70987bdf05f3",
+    "iso7z":  26008984
 }

@@ -6,5 +6,7 @@
     "fileCount":  185,
     "rawBytes":  33321186,
     "games7z":  29678199,
-    "iso7z":  28073442
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20138%20Aug%2019%202011%20-%20Damaged.iso",
+    "isoSha1":  "a0d4b1df84f911290cce29dd833fca1dd84178e0",
+    "iso7z":  57099542
 }

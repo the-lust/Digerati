@@ -6,5 +6,7 @@
     "fileCount":  200,
     "rawBytes":  64663930,
     "games7z":  59742793,
-    "iso7z":  58299841
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20147%20Jan%2021%202012.iso",
+    "isoSha1":  "0ed1bfd594e00ed123602d1ee29ee633b8dd3ca5",
+    "iso7z":  86505298
 }

@@ -6,5 +6,7 @@
     "fileCount":  182,
     "rawBytes":  68748366,
     "games7z":  63446058,
-    "iso7z":  62128758
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20134%20Jun%2029%202011.iso",
+    "isoSha1":  "28e55aaccf634f45204dd03463eea62e2ff90846",
+    "iso7z":  92834520
 }

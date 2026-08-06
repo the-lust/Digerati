@@ -6,5 +6,7 @@
     "fileCount":  4716,
     "rawBytes":  499299401,
     "games7z":  422830129,
-    "iso7z":  380280955
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2026%20%5BAnniversary%20Edition%5D%20-%20JOGO%20DISK%20.iso",
+    "isoSha1":  "29127baf9357d0b12cb427f102ea9e0bf538881d",
+    "iso7z":  404155893
 }

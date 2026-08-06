@@ -6,5 +6,7 @@
     "fileCount":  189,
     "rawBytes":  78778138,
     "games7z":  73762672,
-    "iso7z":  72496762
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20132%20Jun%2009%202011.iso",
+    "isoSha1":  "2ba4c99c142462bbdf38e41d8ad10727dc8fbcf4",
+    "iso7z":  100465827
 }

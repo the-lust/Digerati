@@ -6,5 +6,7 @@
     "fileCount":  568,
     "rawBytes":  222265470,
     "games7z":  168357746,
-    "iso7z":  138115868
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20E-12%20May%2021%202012.iso",
+    "isoSha1":  "9802bc0831a0e2c3de239bbf5437d625fd109f97",
+    "iso7z":  194451394
 }

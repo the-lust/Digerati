@@ -6,5 +6,7 @@
     "fileCount":  275,
     "rawBytes":  45365022,
     "games7z":  20588072,
-    "iso7z":  20423710
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2074%20My%20Disc%20-%20Damaged.iso",
+    "isoSha1":  "b98c5aa9f6bc10ae570dd12d45f0193bfefa7ae0",
+    "iso7z":  48622288
 }

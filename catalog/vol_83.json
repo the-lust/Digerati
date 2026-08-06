@@ -6,5 +6,7 @@
     "fileCount":  260,
     "rawBytes":  36963552,
     "games7z":  29834388,
-    "iso7z":  28185104
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2083%20My%20Disc.iso",
+    "isoSha1":  "ef50b2998f6fd2619527ce95dc199a1559dfa9c6",
+    "iso7z":  56527951
 }

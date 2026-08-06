@@ -6,5 +6,7 @@
     "fileCount":  183,
     "rawBytes":  51774155,
     "games7z":  45932445,
-    "iso7z":  44646698
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20117%20Oct%2015%202010.iso",
+    "isoSha1":  "c5c0b2f438bb5c1cf9a26b547290fac0bfe7ef5e",
+    "iso7z":  72612043
 }

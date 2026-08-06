@@ -6,5 +6,7 @@
     "fileCount":  189,
     "rawBytes":  73908444,
     "games7z":  67965532,
-    "iso7z":  66648848
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20136%20My%20Disc%20-%20Damaged.iso",
+    "isoSha1":  "1138134428f19a1d21bf328cd7bb66797c238c68",
+    "iso7z":  64908272
 }

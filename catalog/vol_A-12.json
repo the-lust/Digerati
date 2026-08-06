@@ -6,5 +6,7 @@
     "fileCount":  488,
     "rawBytes":  374134124,
     "games7z":  347720603,
-    "iso7z":  335826721
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20A-12%20Apr%2004%202012.iso",
+    "isoSha1":  "2d0c2fa299d97ccb7dd7d310ffa0caae71ab3ab5",
+    "iso7z":  353948611
 }

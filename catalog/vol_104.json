@@ -6,5 +6,7 @@
     "fileCount":  218,
     "rawBytes":  52207641,
     "games7z":  46584471,
-    "iso7z":  45317170
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20104%20Mar%2013%202010.iso",
+    "isoSha1":  "0dc80c6aa04f34feef9f2b2296cb4e6a712b0fe2",
+    "iso7z":  73300991
 }

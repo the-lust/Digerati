@@ -6,5 +6,7 @@
     "fileCount":  264,
     "rawBytes":  44201585,
     "games7z":  38726223,
-    "iso7z":  37365170
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2099%20Jan%2019%202010.iso",
+    "isoSha1":  "53cdc323c278e43dea4b78d124a2f10a386d893f",
+    "iso7z":  65333142
 }

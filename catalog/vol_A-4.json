@@ -6,5 +6,7 @@
     "fileCount":  426,
     "rawBytes":  58070149,
     "games7z":  50287870,
-    "iso7z":  48923804
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20A-4%20Volume.%20A4.iso",
+    "isoSha1":  "2c855266600769ffd6c5f08519d0008a8cafcd01",
+    "iso7z":  70819101
 }

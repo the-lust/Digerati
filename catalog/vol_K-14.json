@@ -6,5 +6,7 @@
     "fileCount":  326,
     "rawBytes":  146723656,
     "games7z":  106796150,
-    "iso7z":  102722335
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20K-14%20Jun%2007%202014.iso",
+    "isoSha1":  "e9e00d1444677426297cdd30d8811fcc5ba68e8b",
+    "iso7z":  124611927
 }

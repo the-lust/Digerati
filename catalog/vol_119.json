@@ -6,5 +6,7 @@
     "fileCount":  139,
     "rawBytes":  60689018,
     "games7z":  57602727,
-    "iso7z":  56751142
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20119%20Nov%2009%202010.iso",
+    "isoSha1":  "27342d9473ac0e94eb78e0e95819d128792cc247",
+    "iso7z":  66123053
 }

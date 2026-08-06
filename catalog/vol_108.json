@@ -6,5 +6,7 @@
     "fileCount":  191,
     "rawBytes":  45527060,
     "games7z":  38598876,
-    "iso7z":  37199977
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20108.iso",
+    "isoSha1":  "f4e1535d836aca6fb94f07640e576fcf82470fef",
+    "iso7z":  65163411
 }

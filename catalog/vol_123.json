@@ -6,5 +6,7 @@
     "fileCount":  204,
     "rawBytes":  41678062,
     "games7z":  31520653,
-    "iso7z":  30219930
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20123%20Jan%2013%202011.iso",
+    "isoSha1":  "206d281376d08ff43e993203d08027c421e9ce58",
+    "iso7z":  58188436
 }

@@ -6,5 +6,7 @@
     "fileCount":  200,
     "rawBytes":  67185780,
     "games7z":  62251340,
-    "iso7z":  59452366
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2089%20My%20Disc.iso",
+    "isoSha1":  "bc84db469c33dd77a35aaff9bc652855cc204ddf",
+    "iso7z":  8414575
 }

@@ -6,5 +6,7 @@
     "fileCount":  1728,
     "rawBytes":  217770544,
     "games7z":  116222485,
-    "iso7z":  94682452
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2011%20TK_11.iso",
+    "isoSha1":  "6dbe05164ee5a8348acb8424c21e416f39ad26b4",
+    "iso7z":  101137540
 }

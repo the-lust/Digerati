@@ -6,5 +6,7 @@
     "fileCount":  197,
     "rawBytes":  56635032,
     "games7z":  51777005,
-    "iso7z":  50278399
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20149%20Feb%2025%202012.iso",
+    "isoSha1":  "5d118a8c074cfaaffe9e937123aad438e96a227f",
+    "iso7z":  78481231
 }

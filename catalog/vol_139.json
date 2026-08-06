@@ -6,5 +6,7 @@
     "fileCount":  187,
     "rawBytes":  35358689,
     "games7z":  29880510,
-    "iso7z":  28329783
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20139%20Sep%2024%202011.iso",
+    "isoSha1":  "731fcd476d9f5d03a427676f5df6323226cebc1a",
+    "iso7z":  56287734
 }

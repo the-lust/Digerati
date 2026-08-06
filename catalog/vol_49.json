@@ -6,5 +6,7 @@
     "fileCount":  686,
     "rawBytes":  125938865,
     "games7z":  114517962,
-    "iso7z":  111499926
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2049%20-%20JOGO%20DISK%20.iso",
+    "isoSha1":  "cfaad71808802fe8a0565e043223f6e3524c469c",
+    "iso7z":  111864845
 }

@@ -6,5 +6,7 @@
     "fileCount":  185,
     "rawBytes":  59931802,
     "games7z":  55060756,
-    "iso7z":  53653729
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2093%20My%20Disc.iso",
+    "isoSha1":  "dd3edfed6f82774fb495c8da57087b781c5a5c6d",
+    "iso7z":  81823993
 }

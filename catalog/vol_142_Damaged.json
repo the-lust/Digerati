@@ -6,5 +6,7 @@
     "fileCount":  178,
     "rawBytes":  54990746,
     "games7z":  50502283,
-    "iso7z":  49263224
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20142%20Oct%2017%202011%20-%20Damaged.iso",
+    "isoSha1":  "663a11641100f0b86f0c4780b6de04fc85bf3d1f",
+    "iso7z":  77252272
 }

@@ -6,5 +6,7 @@
     "fileCount":  180,
     "rawBytes":  39219411,
     "games7z":  31854921,
-    "iso7z":  29940494
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20110.iso",
+    "isoSha1":  "8f521023082f43825b5b88e184aca79c54ed15d3",
+    "iso7z":  57867971
 }

@@ -6,5 +6,7 @@
     "fileCount":  310,
     "rawBytes":  93551385,
     "games7z":  84700900,
-    "iso7z":  82253356
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2012%20-%20JOGO%20DISK%20.iso",
+    "isoSha1":  "13bf8ff3a03e8d1fa53c38f16376e5105214e5b9",
+    "iso7z":  147706238
 }

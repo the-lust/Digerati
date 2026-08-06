@@ -6,5 +6,7 @@
     "fileCount":  402,
     "rawBytes":  120874921,
     "games7z":  107444892,
-    "iso7z":  103205446
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%2035%20-%20JOGO%20DISK%20.iso",
+    "isoSha1":  "2e3708bb5ae6e5e74a58f109aba0ad38baa5845f",
+    "iso7z":  103398985
 }

@@ -6,5 +6,7 @@
     "fileCount":  187,
     "rawBytes":  71072148,
     "games7z":  65270553,
-    "iso7z":  63782871
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20140%20Sep%2019%202011.iso",
+    "isoSha1":  "5ffbd3c2cbd1b50e9a9a75d27839ab836692de22",
+    "iso7z":  91749697
 }

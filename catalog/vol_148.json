@@ -6,5 +6,7 @@
     "fileCount":  198,
     "rawBytes":  90868544,
     "games7z":  85906884,
-    "iso7z":  84499558
+    "isoSource":  "https://archive.org/download/jogo-disk-collection/Volume%20148%20Feb%2007%202012.iso",
+    "isoSha1":  "7fbcd1cad80e35d7857cf70420139bdf276bb4ab",
+    "iso7z":  87060858
 }
