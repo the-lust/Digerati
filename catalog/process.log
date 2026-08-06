@@ -85,3 +85,12 @@
 2026-08-06 14:04:28 [11] creating release vol-11
 2026-08-06 14:04:58 [11] uploaded; cleaning local
 2026-08-06 14:05:01 [11] DONE
+2026-08-06 14:05:08 [110] downloading Vol 110.zip (31.7 MB)
+2026-08-06 14:05:20 [110] SHA-1 verified
+2026-08-06 14:05:20 [110] extracting
+2026-08-06 14:05:21 [110] compressing per-game 7z
+2026-08-06 14:05:27 [110] compressing solid iso 7z
+2026-08-06 14:05:36 [110] catalog entry written (180 files)
+2026-08-06 14:05:37 [110] creating release vol-110
+2026-08-06 14:05:47 [110] uploaded; cleaning local
+2026-08-06 14:05:47 [110] DONE
