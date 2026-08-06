@@ -1,11 +1,11 @@
 # Digerati
 
-Open archive of the **Champak Jogo Disk** cover CDs (produced by Digerati for Champak magazine, India, mid-2000s to early 2010s).
+Open archive of the **Champak Jogo Disk** cover CDs (produced by Digerati for Champak magazine,in India, during mid 2000s to early 2010s).
 
 Every volume is preserved twice:
 
-- `Vol_XXX.games.7z` — per-game compression (LZMA2 max, non-solid): each game/extras file is an independently extractable entry, so individual games can be pulled without the whole disc.
-- `Vol_XXX.iso.7z` — whole-disc super-compressed archive (solid LZMA2 max).
+- `Vol_XXX.games.7z` — per game compression (LZMA2 max, non solid): each game/extras file is an independently extractable entry, so individual games can be pulled without the whole disc.
+- `Vol_XXX.iso.7z` — whole disc super compressed archive (solid LZMA2 max).
 
 All archives are attached as GitHub Release assets (one release `vol-XXX` per volume) and are free to download.
 
@@ -30,23 +30,23 @@ Volumes: 11, 12, 25, 26 (Anniversary), 28–41, 43–47, 49, 50, 52–56, 59–6
 
 ## Playing the games
 
-The games are Flash (`.swf`) shareware games. Use **Ruffle** (ruffle.rs) to play them; `.exe` tools (Click and Paint, Magic Blackboard, wallpapers installer) run on Windows or via Wine on macOS/Linux; `.dcr` Shockwave/Director games have no maintained emulator.
+The games are Flash based (`.swf`) shareware games. Use **Ruffle** (ruffle.rs) to play them; `.exe` tools (Click and Paint, Magic Blackboard, wallpapers installer) run on Windows or via Wine on macOS/Linux; `.dcr` Shockwave/Director games have no maintained emulator.
 
 ## How the archive was built
 
-1. `scripts/process-volume.ps1 -Vol <N>` downloads the volume from archive.org, verifies SHA-1, extracts, compresses per-game + solid disc archives, uploads to the GitHub release `vol-<N>`, then deletes local copies.
+1. `scripts/process-volume.ps1 -Vol <N>` downloads the volume from archive.org, verifies SHA-1, extracts, compresses per game + solid disc archives, uploads to the GitHub release `vol-<N>`, then deletes local copies.
 2. `catalog/vol_<N>.json` holds per-volume metadata (file counts, sizes, source URLs, hashes).
 
 ## Catalog
 
-- `catalog/vol_*.json` — per-volume metadata
+- `catalog/vol_*.json` — per volume metadata
 - `catalog/process.log` — processing log
 
 Repo layout:
 
 ```
 scripts/    pipeline scripts
-catalog/    per-volume metadata + log
+catalog/    per volume metadata + log
 ```
 
 License: The games are shareware/embeddable titles bundled with a magazine; preserved for archival/educational purposes.
