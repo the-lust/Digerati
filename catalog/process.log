@@ -698,3 +698,12 @@
 2026-08-06 17:00:14 [76] creating release vol-76
 2026-08-06 17:00:34 [76] uploaded; cleaning local
 2026-08-06 17:00:35 [76] DONE
+2026-08-06 17:00:42 [77] downloading Vol 77.iso (89.2 MB)
+2026-08-06 17:01:15 [77] SHA-1 verified
+2026-08-06 17:01:15 [77] extracting
+2026-08-06 17:01:17 [77] compressing per-game 7z
+2026-08-06 17:01:17 [77] compressing solid iso 7z
+2026-08-06 17:01:18 [77] catalog entry written (32 files)
+2026-08-06 17:01:19 [77] creating release vol-77
+2026-08-06 17:01:23 [77] uploaded; cleaning local
+2026-08-06 17:01:23 [77] DONE
