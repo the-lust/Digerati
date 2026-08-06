@@ -653,3 +653,12 @@
 2026-08-06 16:53:05 [64] creating release vol-64
 2026-08-06 16:53:23 [64] uploaded; cleaning local
 2026-08-06 16:53:23 [64] DONE
+2026-08-06 16:53:30 [65] downloading Vol 65.zip (57.3 MB)
+2026-08-06 16:53:53 [65] SHA-1 verified
+2026-08-06 16:53:53 [65] extracting
+2026-08-06 16:53:57 [65] compressing per-game 7z
+2026-08-06 16:54:08 [65] compressing solid iso 7z
+2026-08-06 16:54:20 [65] catalog entry written (455 files)
+2026-08-06 16:54:21 [65] creating release vol-65
+2026-08-06 16:54:39 [65] uploaded; cleaning local
+2026-08-06 16:54:39 [65] DONE
