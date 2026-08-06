@@ -689,3 +689,12 @@
 2026-08-06 16:58:29 [75 (Damaged)] creating release vol-75_Damaged
 2026-08-06 16:58:56 [75 (Damaged)] uploaded; cleaning local
 2026-08-06 16:58:56 [75 (Damaged)] DONE
+2026-08-06 16:59:03 [76] downloading Vol 76.zip (70.2 MB)
+2026-08-06 16:59:45 [76] SHA-1 verified
+2026-08-06 16:59:45 [76] extracting
+2026-08-06 16:59:47 [76] compressing per-game 7z
+2026-08-06 16:59:59 [76] compressing solid iso 7z
+2026-08-06 17:00:13 [76] catalog entry written (425 files)
+2026-08-06 17:00:14 [76] creating release vol-76
+2026-08-06 17:00:34 [76] uploaded; cleaning local
+2026-08-06 17:00:35 [76] DONE
