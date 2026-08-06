@@ -869,3 +869,21 @@
 2026-08-06 17:44:08 [M-12] creating release vol-M-12
 2026-08-06 17:44:27 [M-12] uploaded; cleaning local
 2026-08-06 17:44:28 [M-12] DONE
+2026-08-06 17:53:24 [36] downloading Vol 36.zip (93.1 MB)
+2026-08-06 17:54:00 [36] SHA-1 verified
+2026-08-06 17:54:00 [36] extracting
+2026-08-06 17:54:02 [36] compressing per-game 7z
+2026-08-06 17:54:16 [36] compressing solid iso 7z
+2026-08-06 17:54:31 [36] catalog entry written (394 files)
+2026-08-06 17:54:32 [36] creating release vol-36
+2026-08-06 17:54:58 [36] uploaded; cleaning local
+2026-08-06 17:54:59 [36] DONE
+2026-08-06 17:55:03 [38] downloading Vol 38.zip (68.8 MB)
+2026-08-06 17:55:17 [38] SHA-1 verified
+2026-08-06 17:55:17 [38] extracting
+2026-08-06 17:55:19 [38] compressing per-game 7z
+2026-08-06 17:55:30 [38] compressing solid iso 7z
+2026-08-06 17:55:43 [38] catalog entry written (336 files)
+2026-08-06 17:55:44 [38] creating release vol-38
+2026-08-06 17:56:12 [38] uploaded; cleaning local
+2026-08-06 17:56:13 [38] DONE
