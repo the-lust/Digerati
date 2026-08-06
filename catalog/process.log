@@ -464,3 +464,12 @@
 2026-08-06 15:39:04 [39] creating release vol-39
 2026-08-06 15:39:30 [39] uploaded; cleaning local
 2026-08-06 15:39:31 [39] DONE
+2026-08-06 15:39:40 [40] downloading Vol 40.zip (155.4 MB)
+2026-08-06 15:40:58 [40] SHA-1 verified
+2026-08-06 15:40:59 [40] extracting
+2026-08-06 15:41:04 [40] compressing per-game 7z
+2026-08-06 15:42:13 [40] compressing solid iso 7z
+2026-08-06 15:43:38 [40] catalog entry written (319 files)
+2026-08-06 15:43:39 [40] creating release vol-40
+2026-08-06 15:44:18 [40] uploaded; cleaning local
+2026-08-06 15:44:18 [40] DONE
