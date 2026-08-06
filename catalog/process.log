@@ -554,3 +554,12 @@
 2026-08-06 16:30:45 [50] creating release vol-50
 2026-08-06 16:31:08 [50] uploaded; cleaning local
 2026-08-06 16:31:08 [50] DONE
+2026-08-06 16:31:14 [52] downloading Vol 52.zip (85 MB)
+2026-08-06 16:31:49 [52] SHA-1 verified
+2026-08-06 16:31:49 [52] extracting
+2026-08-06 16:31:54 [52] compressing per-game 7z
+2026-08-06 16:32:21 [52] compressing solid iso 7z
+2026-08-06 16:32:46 [52] catalog entry written (706 files)
+2026-08-06 16:32:46 [52] creating release vol-52
+2026-08-06 16:33:09 [52] uploaded; cleaning local
+2026-08-06 16:33:11 [52] DONE
