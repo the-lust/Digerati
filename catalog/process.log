@@ -761,3 +761,12 @@
 2026-08-06 17:07:21 [99] creating release vol-99
 2026-08-06 17:07:33 [99] uploaded; cleaning local
 2026-08-06 17:07:33 [99] DONE
+2026-08-06 17:07:40 [A-12] downloading Vol A-12.zip (337 MB)
+2026-08-06 17:09:12 [A-12] SHA-1 verified
+2026-08-06 17:09:12 [A-12] extracting
+2026-08-06 17:09:21 [A-12] compressing per-game 7z
+2026-08-06 17:10:44 [A-12] compressing solid iso 7z
+2026-08-06 17:12:15 [A-12] catalog entry written (488 files)
+2026-08-06 17:12:16 [A-12] creating release vol-A-12
+2026-08-06 17:13:42 [A-12] uploaded; cleaning local
+2026-08-06 17:13:43 [A-12] DONE
