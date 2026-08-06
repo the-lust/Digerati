@@ -473,3 +473,12 @@
 2026-08-06 15:43:39 [40] creating release vol-40
 2026-08-06 15:44:18 [40] uploaded; cleaning local
 2026-08-06 15:44:18 [40] DONE
+2026-08-06 15:44:27 [41] downloading Vol 41.zip (119.3 MB)
+2026-08-06 15:45:26 [41] SHA-1 verified
+2026-08-06 15:45:26 [41] extracting
+2026-08-06 15:45:30 [41] compressing per-game 7z
+2026-08-06 15:46:08 [41] compressing solid iso 7z
+2026-08-06 15:46:41 [41] catalog entry written (318 files)
+2026-08-06 15:46:42 [41] creating release vol-41
+2026-08-06 15:47:14 [41] uploaded; cleaning local
+2026-08-06 15:47:14 [41] DONE
