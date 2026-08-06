@@ -201,3 +201,12 @@
 2026-08-06 14:18:26 [128 (Damaged)] creating release vol-128_Damaged
 2026-08-06 14:18:32 [128 (Damaged)] uploaded; cleaning local
 2026-08-06 14:18:32 [128 (Damaged)] DONE
+2026-08-06 14:18:39 [129] downloading Vol 129.zip (71 MB)
+2026-08-06 14:19:02 [129] SHA-1 verified
+2026-08-06 14:19:02 [129] extracting
+2026-08-06 14:19:03 [129] compressing per-game 7z
+2026-08-06 14:19:16 [129] compressing solid iso 7z
+2026-08-06 14:19:31 [129] catalog entry written (219 files)
+2026-08-06 14:19:31 [129] creating release vol-129
+2026-08-06 14:19:51 [129] uploaded; cleaning local
+2026-08-06 14:19:52 [129] DONE
