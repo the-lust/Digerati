@@ -255,3 +255,12 @@
 2026-08-06 14:28:22 [136] creating release vol-136
 2026-08-06 14:28:42 [136] uploaded; cleaning local
 2026-08-06 14:28:42 [136] DONE
+2026-08-06 14:28:49 [138] downloading Vol 138.zip (29.1 MB)
+2026-08-06 14:29:07 [138] SHA-1 verified
+2026-08-06 14:29:07 [138] extracting
+2026-08-06 14:29:08 [138] compressing per-game 7z
+2026-08-06 14:29:14 [138] compressing solid iso 7z
+2026-08-06 14:29:20 [138] catalog entry written (185 files)
+2026-08-06 14:29:20 [138] creating release vol-138
+2026-08-06 14:29:31 [138] uploaded; cleaning local
+2026-08-06 14:29:31 [138] DONE
