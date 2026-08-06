@@ -291,3 +291,12 @@
 2026-08-06 14:34:47 [141] creating release vol-141
 2026-08-06 14:35:11 [141] uploaded; cleaning local
 2026-08-06 14:35:11 [141] DONE
+2026-08-06 14:35:18 [142 (Damaged)] downloading Vol 142 (Damaged).zip (49.1 MB)
+2026-08-06 14:35:39 [142 (Damaged)] SHA-1 verified
+2026-08-06 14:35:39 [142 (Damaged)] extracting
+2026-08-06 14:35:40 [142 (Damaged)] compressing per-game 7z
+2026-08-06 14:35:49 [142 (Damaged)] compressing solid iso 7z
+2026-08-06 14:35:59 [142 (Damaged)] catalog entry written (178 files)
+2026-08-06 14:36:02 [142 (Damaged)] creating release vol-142_Damaged
+2026-08-06 14:36:18 [142 (Damaged)] uploaded; cleaning local
+2026-08-06 14:36:18 [142 (Damaged)] DONE
