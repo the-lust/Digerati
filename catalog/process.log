@@ -500,3 +500,12 @@
 2026-08-06 15:52:08 [44] creating release vol-44
 2026-08-06 15:52:31 [44] uploaded; cleaning local
 2026-08-06 15:52:32 [44] DONE
+2026-08-06 15:52:38 [45] downloading Vol 45.zip (303.4 MB)
+2026-08-06 15:54:33 [45] SHA-1 verified
+2026-08-06 15:54:33 [45] extracting
+2026-08-06 15:54:37 [45] compressing per-game 7z
+2026-08-06 15:55:34 [45] compressing solid iso 7z
+2026-08-06 15:56:49 [45] catalog entry written (378 files)
+2026-08-06 15:56:50 [45] creating release vol-45
+2026-08-06 15:58:05 [45] uploaded; cleaning local
+2026-08-06 15:58:07 [45] DONE
