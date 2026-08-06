@@ -363,3 +363,12 @@
 2026-08-06 14:48:04 [149] creating release vol-149
 2026-08-06 14:48:19 [149] uploaded; cleaning local
 2026-08-06 14:48:19 [149] DONE
+2026-08-06 14:48:26 [25] downloading Vol 25.zip (108.5 MB)
+2026-08-06 14:49:04 [25] SHA-1 verified
+2026-08-06 14:49:04 [25] extracting
+2026-08-06 14:49:07 [25] compressing per-game 7z
+2026-08-06 14:49:28 [25] compressing solid iso 7z
+2026-08-06 14:49:59 [25] catalog entry written (313 files)
+2026-08-06 14:50:00 [25] creating release vol-25
+2026-08-06 14:50:29 [25] uploaded; cleaning local
+2026-08-06 14:50:30 [25] DONE
