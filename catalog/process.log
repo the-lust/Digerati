@@ -49,3 +49,12 @@
 2026-08-06 13:57:43 [106] creating release vol-106
 2026-08-06 13:58:02 [106] uploaded; cleaning local
 2026-08-06 13:58:02 [106] DONE
+2026-08-06 13:58:09 [107] downloading (Vol 107) May 15 2010.iso (77 MB)
+2026-08-06 13:58:56 [107] SHA-1 verified
+2026-08-06 13:58:56 [107] extracting
+2026-08-06 13:58:56 [107] compressing per-game 7z
+2026-08-06 13:58:58 [107] compressing solid iso 7z
+2026-08-06 13:58:59 [107] catalog entry written (32 files)
+2026-08-06 13:59:01 [107] creating release vol-107
+2026-08-06 13:59:05 [107] uploaded; cleaning local
+2026-08-06 13:59:05 [107] DONE
