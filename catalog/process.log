@@ -806,3 +806,12 @@
 2026-08-06 17:20:54 [C-14] creating release vol-C-14
 2026-08-06 17:21:10 [C-14] uploaded; cleaning local
 2026-08-06 17:21:11 [C-14] DONE
+2026-08-06 17:21:20 [E-12] downloading Vol E-12.zip (170 MB)
+2026-08-06 17:22:04 [E-12] SHA-1 verified
+2026-08-06 17:22:04 [E-12] extracting
+2026-08-06 17:22:10 [E-12] compressing per-game 7z
+2026-08-06 17:22:56 [E-12] compressing solid iso 7z
+2026-08-06 17:24:06 [E-12] catalog entry written (568 files)
+2026-08-06 17:24:07 [E-12] creating release vol-E-12
+2026-08-06 17:24:47 [E-12] uploaded; cleaning local
+2026-08-06 17:24:48 [E-12] DONE
