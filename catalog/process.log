@@ -130,3 +130,11 @@
 2026-08-06 14:10:55 [119] creating release vol-119
 2026-08-06 14:11:12 [119] uploaded; cleaning local
 2026-08-06 14:11:12 [119] DONE
+2026-08-06 14:11:20 [12] SHA-1 verified
+2026-08-06 14:11:20 [12] extracting
+2026-08-06 14:11:22 [12] compressing per-game 7z
+2026-08-06 14:11:38 [12] compressing solid iso 7z
+2026-08-06 14:11:56 [12] catalog entry written (310 files)
+2026-08-06 14:11:57 [12] creating release vol-12
+2026-08-06 14:12:20 [12] uploaded; cleaning local
+2026-08-06 14:12:21 [12] DONE
