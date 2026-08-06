@@ -174,3 +174,12 @@
 2026-08-06 14:16:29 [124] creating release vol-124
 2026-08-06 14:16:33 [124] uploaded; cleaning local
 2026-08-06 14:16:33 [124] DONE
+2026-08-06 14:16:40 [125 (Damaged)] downloading Vol 125 (Damaged).zip (32.4 MB)
+2026-08-06 14:17:07 [125 (Damaged)] SHA-1 verified
+2026-08-06 14:17:07 [125 (Damaged)] extracting
+2026-08-06 14:17:07 [125 (Damaged)] compressing per-game 7z
+2026-08-06 14:17:12 [125 (Damaged)] compressing solid iso 7z
+2026-08-06 14:17:17 [125 (Damaged)] catalog entry written (180 files)
+2026-08-06 14:17:18 [125 (Damaged)] creating release vol-125_Damaged
+2026-08-06 14:17:28 [125 (Damaged)] uploaded; cleaning local
+2026-08-06 14:17:29 [125 (Damaged)] DONE
