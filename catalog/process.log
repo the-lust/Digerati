@@ -40,3 +40,12 @@
 2026-08-06 13:56:28 [104] creating release vol-104
 2026-08-06 13:56:42 [104] uploaded; cleaning local
 2026-08-06 13:56:43 [104] DONE
+2026-08-06 13:56:50 [106] downloading Vol 106.zip (64.5 MB)
+2026-08-06 13:57:17 [106] SHA-1 verified
+2026-08-06 13:57:17 [106] extracting
+2026-08-06 13:57:18 [106] compressing per-game 7z
+2026-08-06 13:57:28 [106] compressing solid iso 7z
+2026-08-06 13:57:42 [106] catalog entry written (181 files)
+2026-08-06 13:57:43 [106] creating release vol-106
+2026-08-06 13:58:02 [106] uploaded; cleaning local
+2026-08-06 13:58:02 [106] DONE
