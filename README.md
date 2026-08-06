@@ -9,6 +9,16 @@ Every volume is preserved twice:
 
 All archives are attached as GitHub Release assets (one release `vol-XXX` per volume) and are free to download.
 
+## Archive contents (August 2026)
+
+- **98 volumes** (Vol 11–149 + letter series A-4 through M-12), covering the complete known Jogo Disk run
+- **196 release assets = 16.7 GB** compressed (`.games.7z` + `.iso.7z` per volume)
+- **48 disc cover scans** (release `disc-covers`)
+- Original sources: ~19.5 GB of ZIP/ISO media (redundancy removed)
+- Every download is SHA-1 verified against archive.org metadata
+
+Volumes: 11, 12, 25, 26 (Anniversary), 28–41, 43–47, 49, 50, 52–56, 59–66, 74–76, 78, 83, 86, 89, 93, 99, 100, 103, 104, 106–110, 112, 114, 116, 117, 119, 120, 122–125, 127–130, 132, 134–136, 138–149, A-4, A-12, B-12, C-12, C-14, E-12, E-14, F-12, G-12, K-12, K-14, M-12
+
 ## Sources
 
 - Main ISO collection (73 vols): https://archive.org/details/jogo-disk-collection
