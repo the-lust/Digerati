@@ -734,3 +734,12 @@
 2026-08-06 17:03:56 [86] creating release vol-86
 2026-08-06 17:04:11 [86] uploaded; cleaning local
 2026-08-06 17:04:11 [86] DONE
+2026-08-06 17:04:18 [89] downloading Vol 89.zip (60.4 MB)
+2026-08-06 17:04:36 [89] SHA-1 verified
+2026-08-06 17:04:36 [89] extracting
+2026-08-06 17:04:37 [89] compressing per-game 7z
+2026-08-06 17:04:48 [89] compressing solid iso 7z
+2026-08-06 17:05:03 [89] catalog entry written (200 files)
+2026-08-06 17:05:04 [89] creating release vol-89
+2026-08-06 17:05:24 [89] uploaded; cleaning local
+2026-08-06 17:05:24 [89] DONE
