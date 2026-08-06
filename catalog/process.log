@@ -416,3 +416,12 @@
 2026-08-06 15:11:30 [31] creating release vol-31
 2026-08-06 15:11:51 [31] uploaded; cleaning local
 2026-08-06 15:11:52 [31] DONE
+2026-08-06 15:11:58 [33] downloading Vol 33.zip (96 MB)
+2026-08-06 15:12:49 [33] SHA-1 verified
+2026-08-06 15:12:49 [33] extracting
+2026-08-06 15:12:53 [33] compressing per-game 7z
+2026-08-06 15:13:18 [33] compressing solid iso 7z
+2026-08-06 15:13:53 [33] catalog entry written (407 files)
+2026-08-06 15:13:54 [33] creating release vol-33
+2026-08-06 15:14:21 [33] uploaded; cleaning local
+2026-08-06 15:14:21 [33] DONE
