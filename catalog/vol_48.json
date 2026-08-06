@@ -1,0 +1,10 @@
+﻿{
+    "volume":  "48",
+    "slug":  "48",
+    "source":  "https://archive.org/download/jogo-disk-48/cdrom_image.iso",
+    "sourceSha1":  "effc1711ec555e6c300f744f2f863b122d5857dc",
+    "fileCount":  5,
+    "rawBytes":  28353415,
+    "games7z":  27264778,
+    "iso7z":  27241952
+}

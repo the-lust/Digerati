@@ -527,3 +527,12 @@
 2026-08-06 16:23:42 [47] creating release vol-47
 2026-08-06 16:24:19 [47] uploaded; cleaning local
 2026-08-06 16:24:20 [47] DONE
+2026-08-06 16:24:27 [48] downloading cdrom_image.iso (142 MB)
+2026-08-06 16:27:22 [48] SHA-1 verified
+2026-08-06 16:27:22 [48] extracting
+2026-08-06 16:27:24 [48] compressing per-game 7z
+2026-08-06 16:27:29 [48] compressing solid iso 7z
+2026-08-06 16:27:33 [48] catalog entry written (5 files)
+2026-08-06 16:27:34 [48] creating release vol-48
+2026-08-06 16:27:43 [48] uploaded; cleaning local
+2026-08-06 16:27:44 [48] DONE
