@@ -1,0 +1,10 @@
+﻿{
+    "volume":  "123",
+    "slug":  "123",
+    "source":  "https://archive.org/download/champak-jogo-disk-archive/Vol%20123.zip",
+    "sourceSha1":  "4564297a48341f1a604aa6ced2698c9f7ec720e7",
+    "fileCount":  204,
+    "rawBytes":  41678062,
+    "games7z":  31520653,
+    "iso7z":  30219930
+}
