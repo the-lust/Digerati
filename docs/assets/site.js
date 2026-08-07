@@ -40,7 +40,7 @@ function discSVG(slug, label, opts = {}) {
   else if (iso) ring = `hsl(${hue},48%,44%)`;
   const txt = opts.text || label;
   const gid = "dg-" + hashHue(slug) + "-" + size;
-  return `<svg class="disc" viewBox="0 0 ${size} ${size}" role="img" aria-label="Disc ${esc(label)}">
+  return `<svg class="disc" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" role="img" aria-label="Disc ${esc(label)}">
     <defs>
       <radialGradient id="${gid}" cx="50%" cy="42%" r="62%">
         <stop offset="0%" stop-color="#fdfcf9"/>

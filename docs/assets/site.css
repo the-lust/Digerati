@@ -153,7 +153,7 @@ body {
 .disc-btn:hover { transform: translateY(-4px) scale(1.03); filter: drop-shadow(0 18px 28px rgba(46, 66, 74, 0.34)); }
 .disc-cell:hover .disc { animation: spin 9s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
-.disc-cell .disc { max-width: 100%; height: auto; display: block; }
+.disc-cell .disc { width: 148px; height: 148px; display: block; }
 .disc-name { font-weight: 600; color: var(--ink); line-height: 1.25; }
 .disc-tags { display: flex; gap: 5px; justify-content: center; flex-wrap: wrap; min-height: 22px; }
 
