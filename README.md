@@ -1,53 +1,107 @@
-# Digerati
+# <img src="docs/assets/logos/jogo_disk.svg" alt="Jogo Disk" width="150" align="center"> &middot; Champak Jogo Disk Archive
+### Every Jogo Disk cover CD, preserved in full.
 
-Open archive of the **Champak Jogo Disk** cover CDs (produced by Digerati for Champak magazine,in India, during mid 2000s to early 2010s).
+<p align="center">
+  <img src="docs/assets/logos/champak.png" alt="Champak" height="44">
+  <img src="docs/assets/logos/digerati.png" alt="Digerati" height="44">
+  <img src="docs/assets/logos/jogo_disk.svg" alt="Jogo Disk" height="44">
+</p>
+
+The **Jogo Disk** was a bonus CD bundled with **Champak**, India's beloved fortnightly
+children's magazine (Delhi Press), produced by **Digerati** from the mid-2000s to the early
+2010s. Each disc packed shareware and embeddable **Flash games** that ran straight off the CD,
+together with little extras — wallpapers, paint tools, screensavers.
+
+This project preserves **every volume that survives publicly** — re-hosted as GitHub Release
+assets so the games stay downloadable forever, no account, no archive.org speed.
+
+---
+
+[![Browse the archive](https://img.shields.io/badge/Browse-98%20Volumes-2f7d82)](https://the-lust.github.io/Digerati/)
+[![Assets](https://img.shields.io/badge/assets-196-7d9676)](https://github.com/the-lust/Digerati/releases)
+[![Volumes](https://img.shields.io/badge/volumes-98-2f7d82)](https://github.com/the-lust/Digerati/releases)
+[![Games](https://img.shields.io/badge/files-38%2C489-c98a6c)](#)
+[![License](https://img.shields.io/badge/license-archival%20%2F%20educational-93a1a8)](LICENSE) |
+
+> ### 🌐 Browse online: [the-lust.github.io/Digerati](https://the-lust.github.io/Digerati/)
+> Filter **98 volumes** by number, letter series, real disc image or damage; search all
+> **38,489 games**; preview cover scans; grab `.games.7z` / `.iso.7z` with one click.
+
+---
+
+## What's inside
 
 Every volume is preserved twice:
 
-- `Vol_XXX.games.7z` — per game compression (LZMA2 max, non solid): each game/extras file is an independently extractable entry, so individual games can be pulled without the whole disc.
-- `Vol_XXX.iso.7z` — the real disc image (`.iso`) super-compressed (solid LZMA2 max); for the 24 volumes with no surviving ISO, this is a whole-disc solid archive of the extracted payload instead.
+| Asset | What it is |
+|---|---|
+| `Vol_XXX.games.7z` | Per-game compression (LZMA2 max, non-solid) — each game is an independently extractable entry, so a single game can be pulled without the whole disc. |
+| `Vol_XXX.iso.7z` | The **real disc image** (`.iso`) super-compressed (solid LZMA2 max). For the 24 volumes with no surviving ISO, this is a whole-disc solid archive of the extracted payload instead. |
 
-All archives are attached as GitHub Release assets (one release `vol-XXX` per volume) and are free to download.
+All archives are attached as GitHub **Release assets** (one release `vol-XXX` per volume).
 
-## Archive contents (August 2026)
+## Archive overview *(August 2026)*
 
-- **98 volumes** (Vol 11–149 + letter series A-4 through M-12), covering the complete known Jogo Disk run
-- **196 release assets = 17.4 GB** compressed (`.games.7z` + `.iso.7z` per volume)
-- **70 real disc images** added from the ISO CDRip collection, SHA-1 verified (see `catalog/source_manifest.csv` for exact hashes)
-- **48 disc cover scans** (release `disc-covers`)
-- Original sources: ~29 GB of ZIP/ISO media (redundancy removed)
-- Every download is SHA-1 verified against archive.org metadata
+| | |
+|---|---|
+| Volumes | **98** (Vol 11–149 + letter series A-4 → M-12) |
+| Files | **38,489** (~10.2 GB raw) |
+| Release assets | **196 = 17.4 GB** compressed |
+| Real disc images | **70** SHA-1 verified (`iso.7z`) |
+| Disc cover scans | **52** (`Vol_XXX_cover.jpg` on each release) |
+| Sources | ~29 GB ZIP/ISO media, redundancy removed |
 
-Volumes: 11, 12, 25, 26 (Anniversary), 28–41, 43–47, 49, 50, 52–56, 59–66, 74–76, 78, 83, 86, 89, 93, 99, 100, 103, 104, 106–110, 112, 114, 116, 117, 119, 120, 122–125, 127–130, 132, 134–136, 138–149, A-4, A-12, B-12, C-12, C-14, E-12, E-14, F-12, G-12, K-12, K-14, M-12
-
-## Sources
-
-- Main ISO collection (73 vols): https://archive.org/details/jogo-disk-collection
-- ZIP archive (94 vols): https://archive.org/details/champak-jogo-disk-archive
-- Gap volumes 48, 77, 124: individual archive.org items (`jogo-disk-48`, `jogo-disk-77`, `jogo-disk-124`)
-- Volume 107 ISO: `jogo-disk-107`
-- Physical originals: pastcart.com (Vol 106/107/108/113)
-- Reddit thread: r/IndianGaming `ldtf6p` + Google Drive mirror by u/ReasonablyIntelligent
+Every download is **SHA-1 verified** against archive.org metadata before re-publishing; exact
+hashes live in `catalog/source_manifest.csv` and `catalog/vol_*.json`.
 
 ## Playing the games
 
-The games are Flash based (`.swf`) shareware games. Use **Ruffle** (ruffle.rs) to play them; `.exe` tools (Click and Paint, Magic Blackboard, wallpapers installer) run on Windows or via Wine on macOS/Linux; `.dcr` Shockwave/Director games have no maintained emulator.
+Most games are `.swf` — run them in **[Ruffle](https://ruffle.rs)** (free, in-browser Flash
+emulator). Some discs ship `.exe` extras (Click and Paint, Magic Blackboard, wallpapers
+installer) that run on Windows or via Wine; `.dcr` Shockwave titles have no maintained
+emulator.
 
-## How the archive was built
+## Where it all came from
 
-1. `scripts/process-volume.ps1 -Vol <N>` downloads the volume from archive.org, verifies SHA-1, extracts, compresses per game + solid disc archives, uploads to the GitHub release `vol-<N>`, then deletes local copies.
-2. `catalog/vol_<N>.json` holds per-volume metadata (file counts, sizes, source URLs, hashes).
+- ZIP archive (94 vols): [`champak-jogo-disk-archive`](https://archive.org/details/champak-jogo-disk-archive)
+- ISO collection (73 vols): [`jogo-disk-collection`](https://archive.org/details/jogo-disk-collection)
+- Gap volumes `48, 77, 124` + `107`: individual archive.org items
+- Community mirror by u/ReasonablyIntelligent (Google Drive — same files)
+- Original reddit thread: ["Made some digital versions of Champak Jogo Disks"](https://www.reddit.com/r/IndianGaming/comments/ldtf6p/)
+
+## Build
+
+```bash
+# one volume
+scripts/process-volume.ps1 -Vol 112
+
+# everything
+scripts/run-all.ps1
+```
+
+Pipeline: download → SHA-1 verify → extract → compress per-game + solid disc archives →
+upload to release `vol-XXX` → wipe local copy.
 
 ## Catalog
 
-- `catalog/vol_*.json` — per volume metadata
-- `catalog/process.log` — processing log
+- `catalog/vol_*.json` — per-volume metadata (file counts, sizes, source URLs, hashes)
+- `catalog/source_manifest.csv` — canonical source → SHA-1 map
+- `catalog/games.json` — full per-game index (names + sizes), used by the web archive
+- `catalog/process.log`, `catalog/iso_process.log` — processing logs
 
-Repo layout:
+## Website
+
+`docs/` is a static GitHub Pages site ([link](https://the-lust.github.io/Digerati/)) built from
+the catalog — pure HTML/CSS/JS, no build step. The game index is generated by
+`scripts/build-games-index.ps1` (HTTP-range ZIP central-directory reads — no bulk downloads).
 
 ```
-scripts/    pipeline scripts
-catalog/    per volume metadata + log
+scripts/       pipeline + site data scripts
+catalog/       per-volume metadata, manifests, logs, game index
+docs/          GitHub Pages site (view online)
 ```
 
-License: The games are shareware/embeddable titles bundled with a magazine; preserved for archival/educational purposes.
+---
+
+<p align="center"><em>Preserved for the generation of kids who grew up on Champak.
+Logos belong to their respective owners.</em></p>

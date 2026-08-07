@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jogo Disk Archive — Champak Cover CD Collection</title>
+<meta name="description" content="Complete open archive of the Champak Jogo Disk cover CDs: 98 volumes, 38,000+ Flash games, disc images, covers and metadata.">
+<link rel="icon" href="assets/logos/jogo_disk.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brands">
+    <img src="assets/logos/jogo_disk.svg" alt="Jogo Disk" class="brand brand-jogo">
+    <img src="assets/logos/champak.png" alt="Champak" class="brand brand-champak">
+    <img src="assets/logos/digerati.png" alt="Digerati" class="brand brand-digerati">
+  </div>
+  <nav class="tabs">
+    <button class="tab active" data-view="home">Home</button>
+    <button class="tab" data-view="volumes">Volumes</button>
+    <button class="tab" data-view="games">Games</button>
+    <button class="tab" data-view="discs">Disc Images</button>
+    <button class="tab" data-view="about">About</button>
+  </nav>
+</header>
+
+<main class="container">
+
+  <!-- HOME -->
+  <section id="view-home" class="view active">
+    <div class="hero">
+      <h1 class="hero-title">The Champak <em>Jogo Disk</em> Archive</h1>
+      <p class="hero-sub">Free cover CDs from India's favourite children's magazine — preserved in full. Flash games, disc images, cover scans and complete metadata, open to everyone.</p>
+      <div class="hero-stats" id="hero-stats"></div>
+      <div class="hero-cta">
+        <button class="btn primary" data-goto="volumes">Browse Volumes</button>
+        <button class="btn" data-goto="games">Explore 38,000+ Games</button>
+        <a class="btn ghost" href="https://github.com/the-lust/Digerati" target="_blank" rel="noopener">Source &amp; Catalog on GitHub</a>
+      </div>
+    </div>
+    <div class="feature-grid" id="feature-grid"></div>
+  </section>
+
+  <!-- VOLUMES -->
+  <section id="view-volumes" class="view">
+    <div class="view-head">
+      <h2>Volumes</h2>
+      <div class="filters">
+        <input type="search" id="vol-search" placeholder="Search volumes…" class="input">
+        <select id="vol-filter" class="input">
+          <option value="all">All volumes</option>
+          <option value="numbered">Numbered (11–149)</option>
+          <option value="letter">Letter series (A–M)</option>
+          <option value="iso">With real disc image</option>
+          <option value="damaged">Damaged discs</option>
+        </select>
+      </div>
+    </div>
+    <div id="volumes-grid" class="cards"></div>
+  </section>
+
+  <!-- GAMES -->
+  <section id="view-games" class="view">
+    <div class="view-head">
+      <h2>Games <span id="game-total" class="muted"></span></h2>
+      <div class="filters">
+        <input type="search" id="game-search" placeholder="Search games…" class="input">
+        <select id="game-vol" class="input"><option value="">All volumes</option></select>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="games-table">
+        <thead><tr><th>Game</th><th>Volume</th><th>Size</th><th></th></tr></thead>
+        <tbody id="games-body"></tbody>
+      </table>
+    </div>
+    <div id="games-pager" class="pager"></div>
+  </section>
+
+  <!-- DISCS -->
+  <section id="view-discs" class="view">
+    <div class="view-head">
+      <h2>Disc Images</h2>
+      <div class="filters">
+        <input type="search" id="disc-search" placeholder="Search volumes…" class="input">
+        <select id="disc-filter" class="input">
+          <option value="all">All</option>
+          <option value="real">Real ISO available</option>
+          <option value="payload">Payload only (no surviving ISO)</option>
+        </select>
+      </div>
+    </div>
+    <div id="discs-list" class="cards"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="view-about" class="view">
+    <div class="about prose">
+      <h2>About this archive</h2>
+      <p>The <strong>Jogo Disk</strong> was a bonus CD bundled with <strong>Champak</strong>, India's beloved fortnightly children's magazine (Delhi Press), produced by <strong>Digerati</strong> from the mid-2000s to the early 2010s. Each disc carried shareware and embeddable Flash games that could run offline, plus extras like wallpapers and paint tools.</p>
+      <p>This project preserves every volume that survives publicly — <strong>98 discs</strong>, <strong>38,489 files</strong> (~10.2 GB raw) — re-hosted as GitHub Release assets so the games are downloadable forever, no account required.</p>
+      <h3>How the games play</h3>
+      <p>Most games are <code>.swf</code> files. Run them in <a href="https://ruffle.rs" target="_blank" rel="noopener">Ruffle</a> (free, in-browser Flash emulator). Some discs include <code>.exe</code> extras (Click and Paint, Magic Blackboard, wallpapers) that run on Windows or via Wine. <code>.dcr</code> Shockwave titles have no maintained emulator.</p>
+      <h3>Sources</h3>
+      <ul>
+        <li>ZIP archive (94 vols): <a href="https://archive.org/details/champak-jogo-disk-archive" target="_blank" rel="noopener">archive.org — champak-jogo-disk-archive</a></li>
+        <li>ISO collection (73 vols): <a href="https://archive.org/details/jogo-disk-collection" target="_blank" rel="noopener">archive.org — jogo-disk-collection</a></li>
+        <li>Gap volumes 48, 77, 124 + 107: individual archive.org items</li>
+        <li>Community mirror by u/ReasonablyIntelligent (Google Drive, same files)</li>
+      </ul>
+      <h3>Integrity</h3>
+      <p>Every download is <strong>SHA-1 verified</strong> against archive.org metadata before it is re-published. Per-volume hashes, sizes and source URLs live in <code>catalog/source_manifest.csv</code> and <code>catalog/vol_*.json</code> in the <a href="https://github.com/the-lust/Digerati" target="_blank" rel="noopener">GitHub repo</a>.</p>
+      <h3>License</h3>
+      <p>The games are shareware/embeddable titles bundled with a magazine. They are preserved here for archival and educational purposes. All logos and brand marks belong to their respective owners.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="brands small">
+    <img src="assets/logos/jogo_disk.svg" alt="Jogo Disk">
+    <img src="assets/logos/champak.png" alt="Champak">
+    <img src="assets/logos/digerati.png" alt="Digerati">
+  </div>
+  <p>Preserved with love for a generation of Indian kids. Powered by archive.org.</p>
+  <p class="muted small">the-lust / Digerati · 98 volumes · 38,489 files · 17.4 GB compressed</p>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
