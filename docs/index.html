@@ -33,11 +33,11 @@
   <section id="view-home" class="view active">
     <div class="hero">
       <h1 class="hero-title">The Champak <em>Jogo Disk</em> Archive</h1>
-      <p class="hero-sub">Free cover CDs from India's favourite children's magazine — preserved in full. Flash games, disc images, cover scans and complete metadata, open to everyone.</p>
+      <p class="hero-sub">Free cover CDs from India's favourite children's magazine — preserved in full. Pick a disc below to browse and download, or search straight into the games.</p>
       <div class="hero-stats" id="hero-stats"></div>
       <div class="hero-cta">
-        <button class="btn primary" data-goto="volumes">Browse Volumes</button>
-        <button class="btn" data-goto="games">Explore 38,000+ Games</button>
+        <button class="btn primary" data-goto="volumes">Browse the Discs</button>
+        <button class="btn" data-goto="games">Search 38,000+ Games</button>
         <a class="btn ghost" href="https://github.com/the-lust/Digerati" target="_blank" rel="noopener">Source &amp; Catalog on GitHub</a>
       </div>
     </div>
@@ -47,7 +47,7 @@
   <!-- VOLUMES -->
   <section id="view-volumes" class="view">
     <div class="view-head">
-      <h2>Volumes</h2>
+      <h2>Volumes <span id="vol-total" class="muted"></span></h2>
       <div class="filters">
         <input type="search" id="vol-search" placeholder="Search volumes…" class="input">
         <select id="vol-filter" class="input">
@@ -59,7 +59,7 @@
         </select>
       </div>
     </div>
-    <div id="volumes-grid" class="cards"></div>
+    <div id="volumes-grid" class="disc-grid"></div>
   </section>
 
   <!-- GAMES -->
@@ -71,12 +71,7 @@
         <select id="game-vol" class="input"><option value="">All volumes</option></select>
       </div>
     </div>
-    <div class="table-wrap">
-      <table class="games-table">
-        <thead><tr><th>Game</th><th>Volume</th><th>Size</th><th></th></tr></thead>
-        <tbody id="games-body"></tbody>
-      </table>
-    </div>
+    <div id="games-list" class="game-list"></div>
     <div id="games-pager" class="pager"></div>
   </section>
 
@@ -93,7 +88,7 @@
         </select>
       </div>
     </div>
-    <div id="discs-list" class="cards"></div>
+    <div id="discs-list" class="disc-grid"></div>
   </section>
 
   <!-- ABOUT -->
@@ -119,6 +114,15 @@
   </section>
 
 </main>
+
+<!-- MODAL -->
+<div id="modal" class="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <button class="modal-x" data-close aria-label="Close">✕</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
 
 <footer class="site-footer">
   <div class="brands small">

@@ -142,6 +142,76 @@ body {
 .pager { display: flex; gap: 8px; justify-content: center; align-items: center; margin-top: 18px; flex-wrap: wrap; }
 .pager .pg { min-width: 34px; text-align: center; }
 
+/* disc grid */
+.disc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); gap: 26px 18px; }
+.disc-cell { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; cursor: pointer; }
+.disc-btn {
+  background: none; border: 0; padding: 0; cursor: pointer;
+  filter: drop-shadow(0 12px 20px rgba(46, 66, 74, 0.28));
+  transition: transform 0.16s ease, filter 0.16s ease;
+}
+.disc-btn:hover { transform: translateY(-4px) scale(1.03); filter: drop-shadow(0 18px 28px rgba(46, 66, 74, 0.34)); }
+.disc-cell:hover .disc { animation: spin 9s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.disc-cell .disc { max-width: 100%; height: auto; display: block; }
+.disc-name { font-weight: 600; color: var(--ink); line-height: 1.25; }
+.disc-tags { display: flex; gap: 5px; justify-content: center; flex-wrap: wrap; min-height: 22px; }
+
+/* games list */
+.game-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.game-item {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  text-align: left; cursor: pointer;
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 11px 14px; font-family: var(--font-body); color: var(--ink);
+  transition: transform 0.1s, border-color 0.15s, box-shadow 0.15s;
+}
+.game-item:hover { transform: translateY(-2px); border-color: var(--teal); box-shadow: var(--shadow); }
+.gi-kind { font-size: 1rem; flex: none; width: 22px; text-align: center; }
+.gi-name { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* modal */
+.modal {
+  position: fixed; inset: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: center; padding: 20px;
+}
+.modal[hidden] { display: none; }
+.modal-backdrop { position: absolute; inset: 0; background: rgba(28, 40, 46, 0.55); backdrop-filter: blur(3px); }
+.modal-box {
+  position: relative; width: min(620px, 94vw); max-height: 88vh; overflow: auto;
+  background: var(--card); border-radius: 20px; box-shadow: 0 30px 80px rgba(20, 32, 38, 0.4);
+  animation: modalIn 0.22s ease;
+}
+@keyframes modalIn { from { opacity: 0; transform: translateY(16px) scale(0.97); } to { opacity: 1; transform: none; } }
+.modal-x {
+  position: absolute; top: 12px; right: 12px; z-index: 2;
+  width: 34px; height: 34px; border-radius: 50%; border: 0; cursor: pointer;
+  background: rgba(247, 244, 238, 0.85); color: var(--ink); font-size: 1rem; line-height: 1;
+  display: flex; align-items: center; justify-content: center;
+}
+.modal-x:hover { background: var(--bg-alt); }
+.modal-art {
+  display: flex; align-items: center; justify-content: center;
+  padding: 28px; background: linear-gradient(135deg, #d7e4e2, #e9ded2);
+  border-bottom: 1px solid var(--line); min-height: 190px;
+}
+.modal-art .disc { width: 190px; height: auto; filter: drop-shadow(0 14px 24px rgba(46, 66, 74, 0.3)); }
+.game-art-img { max-height: 240px; max-width: 100%; border-radius: 14px; box-shadow: 0 12px 30px rgba(46, 66, 74, 0.25); }
+.game-art-tile {
+  font-family: var(--font-display); font-size: 1.4rem; color: var(--teal);
+  text-align: center; line-height: 1.4;
+}
+.game-art-tile span { display: block; font-size: 0.95rem; color: var(--ink-soft); }
+.modal-info { padding: 24px; }
+.modal-kicker { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 6px; }
+.modal-title { font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; margin: 0 0 8px; }
+.modal-desc { color: var(--ink-soft); font-size: 0.94rem; margin: 0 0 12px; }
+.modal-meta { display: flex; gap: 8px 16px; flex-wrap: wrap; color: var(--muted); font-size: 0.82rem; margin-bottom: 16px; }
+.modal-meta .mono { font-family: ui-monospace, Consolas, monospace; }
+.modal-meta code { background: var(--bg-alt); padding: 1px 6px; border-radius: 6px; font-size: 0.9em; }
+.modal-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.modal-actions .btn { display: inline-flex; align-items: center; gap: 8px; }
+
 /* about */
 .about.prose h2 { font-family: var(--font-display); font-weight: 700; font-size: 1.7rem; }
 .about.prose h3 { font-family: var(--font-display); font-weight: 600; font-size: 1.2rem; margin-top: 28px; }
