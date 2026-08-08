@@ -1,9 +1,19 @@
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 
+use crate::paths;
+
 pub static META_JSON: &str = include_str!("../data/meta.json");
 pub static VOLUMES_JSON: &str = include_str!("../data/volumes.json");
 pub static GAMES_JSON: &str = include_str!("../data/games.json");
+
+fn no_bom(s: &str) -> &str {
+    s.strip_prefix('\u{feff}').unwrap_or(s)
+}
+
+fn log_parse_err(kind: &str, name: &str, e: &serde_json::Error) {
+    paths::log(&format!("catalog: {name} failed to parse ({kind}): {e}"));
+}
 
 #[derive(Serialize, Deserialize, Clone)]
 #[serde(rename_all = "camelCase")]
@@ -27,6 +37,7 @@ pub struct Volume {
 }
 
 #[derive(Serialize, Clone)]
+#[serde(rename_all = "camelCase")]
 pub struct Meta {
     pub volume_count: u64,
     pub game_count: u64,
@@ -140,7 +151,9 @@ fn norm_key(s: &str) -> String {
 
 impl Catalog {
     pub fn load() -> Self {
-        let meta: serde_json::Value = serde_json::from_str(META_JSON).unwrap_or_default();
+        let meta: serde_json::Value = serde_json::from_str(no_bom(META_JSON))
+            .map_err(|e| log_parse_err("meta", "meta.json", &e))
+            .unwrap_or_default();
         let m = Meta {
             volume_count: meta["volumeCount"].as_u64().unwrap_or(0),
             game_count: meta["gameCount"].as_u64().unwrap_or(0),
@@ -152,14 +165,18 @@ impl Catalog {
             pages_url: meta["pagesUrl"].as_str().unwrap_or("").into(),
             repo_url: meta["repoUrl"].as_str().unwrap_or("").into(),
         };
-        let vols: Vec<Volume> = serde_json::from_str(VOLUMES_JSON).unwrap_or_default();
+        let vols: Vec<Volume> = serde_json::from_str(no_bom(VOLUMES_JSON))
+            .map_err(|e| log_parse_err("volumes", "volumes.json", &e))
+            .unwrap_or_default();
         #[derive(Deserialize)]
         struct RawEntry {
             v: String,
             n: String,
             s: u64,
         }
-        let raw: Vec<RawEntry> = serde_json::from_str(GAMES_JSON).unwrap_or_default();
+        let raw: Vec<RawEntry> = serde_json::from_str(no_bom(GAMES_JSON))
+            .map_err(|e| log_parse_err("games", "games.json", &e))
+            .unwrap_or_default();
         let games: Vec<GameEntry> = raw
             .into_iter()
             .map(|e| GameEntry {

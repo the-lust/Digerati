@@ -564,7 +564,7 @@
     const vl = root.querySelector(".vlist");
     for (const vs of state.volStates) {
       const cv = (state.cat.volumes || []).find((v) => v.slug === vs.slug) || {};
-      const label = cv.title || vs.slug;
+      const label = cv.title || cv.vol || vs.slug;
       const sub = [cv.code, cv.date, cv.fileCount ? `${cv.fileCount} files` : "", vs.extracted ? "ready" : vs.downloaded ? "downloaded" : "not downloaded"]
         .filter(Boolean).join(" · ");
       const row = document.createElement("div");
