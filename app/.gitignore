@@ -1,0 +1,10 @@
+# build artifacts
+src-tauri/target/
+src-tauri/gen/
+src-tauri/embedded/
+
+# local runtime bundles (ruffle, projectors, ffmpeg, music, test content)
+bundles/
+
+# logs
+*.log

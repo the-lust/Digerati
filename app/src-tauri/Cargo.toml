@@ -1,0 +1,31 @@
+[package]
+name = "digerati"
+version = "1.0.0"
+description = "Champak Jogo Disk - the Digerati archive app"
+edition = "2021"
+
+[lib]
+name = "digerati_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.13", default-features = false, features = ["stream", "native-tls", "gzip", "deflate"] }
+tokio = { version = "1", features = ["full"] }
+sevenz-rust = "0.6"
+tiny_http = "0.12"
+futures-util = "0.3"
+base64 = "0.22"
+percent-encoding = "2"
+url = "2"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true
